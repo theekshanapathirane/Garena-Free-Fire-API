@@ -36,8 +36,8 @@ The primary purpose of providing this free API is to enhance the Free Fire commu
 
 # 📁 Additional Information
 
-- This API reponse Does not Represent the Actual Structure Received from the Official Garena Server.
-- The Reponse structure is simplified  in an User-Friendly for the ease of understanding of Anone at any level of Programming.
+- This API response Does not Represent the Actual Structure Received from the Official Garena Server.
+- The Response structure is simplified in an User-Friendly Structure for the ease of understanding for Anyone at any level of Programming.
 - All images related to item IDs shown by the API response (e.g., avatars, banners, outfits, weapons) are available at `https://www.library.freefireinfo.site/icons/{item_code}.png` for the convenience of API users in their development projects.
 
 
