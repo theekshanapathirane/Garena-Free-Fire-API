@@ -45,18 +45,21 @@ The primary purpose of providing this free API is to enhance the Free Fire commu
 ```json
 {
   "Account Avatar Image": "https://library.freefireinfo.site/icons/902044006.png",
-  "Account BP Badges": 43,
   "Account Banner Image": "https://library.freefireinfo.site/icons/901043009.png",
   "Account Booyah Pass": "Premium",
+  "Account Booyah Pass Badges": 44,
   "Account Create Time (GMT 0530)": "2019-08-24 15:05:19",
   "Account Evo Access Badge": "Inactive",
-  "Account Last Login (GMT 0530)": "2024-06-11 02:14:01",
+  "Account Honor Score": 100,
+  "Account Language": "Language_EN",
+  "Account Last Login (GMT 0530)": "2024-06-11 14:11:54",
   "Account Level": 69,
   "Account Likes": 22540,
   "Account Name": "FFLKㅤASTUTE",
   "Account Region": "SG",
+  "Account Signature": "[c][b]TikTok : @astute_ff\nLEAD Team FFLK",
   "Account UID": "1341742864",
-  "Account XP": 2755884,
+  "Account XP": 2756151,
   "BR Rank Points": 3222,
   "CS Rank Points": 59,
   "Equipped Items": {
@@ -98,29 +101,29 @@ The primary purpose of providing this free API is to enhance the Free Fire commu
   },
   "Equipped Title": "Boom Artist",
   "Guild Information": {
-    "capacity": 20,
-    "captainId": "1341742864",
-    "clanId": "3052792498",
-    "clanLevel": 1,
-    "clanName": "FFLKㅤMASTERS",
-    "memberNum": 15
+    "Guild Capacity": 20,
+    "Guild Current Members": 15,
+    "Guild ID": "3052792498",
+    "Guild Level": 1,
+    "Guild Name": "FFLKㅤMASTERS",
+    "Leader ID": "1341742864"
   },
   "Guild Leader Information": {
     "Leader Ac Created Time (GMT 0530)": "2019-08-24 15:05:19",
     "Leader Animations": [907104110, 912041001, 914000002],
     "Leader Avatar Image": "https://library.freefireinfo.site/icons/902044006.png",
-    "Leader BP Badges": 43,
+    "Leader BP Badges": 44,
     "Leader BR Points": 3222,
     "Leader Banner Image": "https://library.freefireinfo.site/icons/901043009.png",
     "Leader CS Points": 59,
-    "Leader Last Login Time (GMT 0530)": "2024-06-11 02:14:01",
+    "Leader Last Login Time (GMT 0530)": "2024-06-11 14:11:54",
     "Leader Level": 69,
     "Leader Likes": 22540,
     "Leader Name": "FFLKㅤASTUTE",
     "Leader Pin": 910000010,
     "Leader Title": "Boom Artist",
     "Leader UID": "1341742864",
-    "Leader XP": 2755884
+    "Leader XP": 2756151
   },
   "Public Craftland Maps": {
     "Map Codes": "{#FREEFIRE31BD4345E87C6A7C0A476B7343B5CD0B2864}"
