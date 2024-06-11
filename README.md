@@ -1,12 +1,13 @@
 # 📝 API Documentation
-API Route = https://www.public.freefireinfo.site/api/info/{region}/{uid}?key={key}
 
 ##  Account Information API
+API Route = https://www.public.freefireinfo.site/api/info/{region}/{uid}?key={key}
+
 **Endpoint:** `api/info`
 **key:** `astute_ff`
 **Method:** `GET`  
-**Description**
-This endpoint retrieves account information based on the specified region and user ID.
+
+This Endpoint Retrieves Account Information based on the Specified Region and User ID.
 
 ### 📨 Request Example
 ```http
@@ -17,8 +18,8 @@ GET https://www.public.freefireinfo.site/api/info/sg/1341742864?key=astute_ff
 
 | Parameter | Type   | Required | Description                   |
 |-----------|--------|----------|-------------------------------|
-| `region`  | string | Yes      | The region code (`SG`, `ind`, `br`,`id`, `tw`, `us`, `sac`, `th`, `me`, `pk`, `cis`, `bd`).|(lower case)
-| `uid`     | string | Yes      | The user ID.                  |
+| `region`  | string | Yes      | The region code (`sg`, `ind`, `br`,`id`, `tw`, `us`, `sac`, `th`, `me`, `pk`, `cis`, `bd`).|
+| `uid`     | int | Yes      | The user ID.                  |
 | `key`     | string | Yes      | Join https://t.me/FreeFireInfoSite to get Latest Key.                  |
 
 
@@ -27,19 +28,20 @@ GET https://www.public.freefireinfo.site/api/info/sg/1341742864?key=astute_ff
 The primary purpose of providing this free API is to enhance the Free Fire community experience. Garena Free Fire does not offer official account information APIs, so this custom solution aims to fill that gap, providing players and developers with valuable account data
 
 
-🧩 **Frameworks and Libraries Used**  
+🧩 **(Some of🤫) Frameworks and Libraries Used**  
 - **Flask**: A micro web framework for Python to build the API endpoints.
 - **Flask-CORS**: For handling Cross-Origin Resource Sharing (CORS).
 - **PyCryptodome**: For implementing Decryption and Encryption.
 - **Requests**: For making HTTP Requests to Server.
 
-📁 **Additional Information** 
+# 📁 Additional Information
 
-This is not the Actual Strcuture Recieved By Official Servers.I Simplified it Up for the Ease of Understanding to People at Any Level of Programming!
-All images related to item IDs Shown By API Response (e.g., avatars, banners, outfits, weapons) are available at `https://www.library.freefireinfo.site/icons/{item_code}.png` for the ease of API users in their development projects.
+- This API reponse Does not Represent the Actual Structure Received from the Official Garena Server.
+- The Reponse structure is simplified  in an User-Friendly for the ease of understanding of Anone at any level of Programming.
+- All images related to item IDs shown by the API response (e.g., avatars, banners, outfits, weapons) are available at `https://www.library.freefireinfo.site/icons/{item_code}.png` for the convenience of API users in their development projects.
 
 
-### 💬 Response Example
+### 💬 Example of a Successful Reponse May Look Like this,
 ```json
 {
   "Account Avatar Image": "https://library.freefireinfo.site/icons/902044006.png",
