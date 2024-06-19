@@ -16,12 +16,12 @@ GET https://www.public.freefireinfo.site/api/info/sg/1341742864?key=astute_ff
 
 ### ☑️ Query Parameters
 
-| Parameter | Type   | Required | Description                   |
-|-----------|--------|----------|-------------------------------|
-| `region`  | string | Yes      | The region code (`sg`, `ind`, `br`,`id`, `tw`, `us`, `sac`, `th`, `me`, `pk`, `cis`, `bd`).|
-| `uid`     | int | Yes      | The user ID.                  |
-| `key`     | string | Yes      | Join https://t.me/FreeFireInfoSite to get Latest Key.                  |
 
+| Parameter     | Type   | Required | Description                                                                 |
+|------------|--------|----------|-----------------------------------------------------------------------------|
+| `region`   | string | Yes      | Supported region code (`sg`, `ind`, `br`, `id`, `tw`, `us`, `sac`, `th`, `me`, `pk`, `cis`, `bd`). |
+| `uid`      | int    | Yes      | In-game Player UID                                                          |
+| `key`      | string | Yes      | Join [FreeFireInfoSite](https://t.me/FreeFireInfoSite) to get the latest key.|
 
 📚 **Purpose of the API**  
 
