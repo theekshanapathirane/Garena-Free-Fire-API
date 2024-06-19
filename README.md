@@ -3,10 +3,9 @@
 ##  Account Information API
 API Route = https://www.public.freefireinfo.site/api/info/<region>/<uid>?key=<key>
 
-**Endpoint:** `api/info`  
-**Method:** `GET`   
-
-This Endpoint Retrieves Account Information based on the Specified Region and User ID.
+**Endpoint**: `api/info`  
+**Method**: `GET`   
+**Description**: This Endpoint Retrieves Account Information based on the Specified Region and Player UID.
 
 ### 📨 Request Example
 * Note: This key Is Expired
