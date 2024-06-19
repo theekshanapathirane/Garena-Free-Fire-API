@@ -1,15 +1,15 @@
 # 📝 API Documentation
 
 ##  Account Information API
-API Route = https://www.public.freefireinfo.site/api/info/{region}/{uid}?key={key}
+API Route = https://www.public.freefireinfo.site/api/info/<region>/<uid>?key=<key>
 
 **Endpoint:** `api/info`  
-**key:** `astute_ff`  
 **Method:** `GET`   
 
 This Endpoint Retrieves Account Information based on the Specified Region and User ID.
 
 ### 📨 Request Example
+* Note: This key Is not Work
 ```http
 GET https://www.public.freefireinfo.site/api/info/sg/1341742864?key=astute_ff
 ```
