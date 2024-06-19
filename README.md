@@ -1,27 +1,26 @@
 # 📝 API Documentation
 
 ##  Account Information API
-API Route = https://www.public.freefireinfo.site/api/info/{region}/{uid}?key={key}
+API Route = https://www.public.freefireinfo.site/api/info/<region>/<uid>?key=<key>
 
-**Endpoint:** `api/info`
-**key:** `astute_ff`
-**Method:** `GET`  
-
-This Endpoint Retrieves Account Information based on the Specified Region and User ID.
+**Endpoint**: `api/info`  
+**Method**: `GET`   
+**Description**: This Endpoint Retrieves Account Information based on the Specified Region and Player UID.
 
 ### 📨 Request Example
+* Note: This key Is Expired
 ```http
 GET https://www.public.freefireinfo.site/api/info/sg/1341742864?key=astute_ff
 ```
 
 ### ☑️ Query Parameters
 
-| Parameter | Type   | Required | Description                   |
-|-----------|--------|----------|-------------------------------|
-| `region`  | string | Yes      | The region code (`sg`, `ind`, `br`,`id`, `tw`, `us`, `sac`, `th`, `me`, `pk`, `cis`, `bd`).|
-| `uid`     | int | Yes      | The user ID.                  |
-| `key`     | string | Yes      | Join https://t.me/FreeFireInfoSite to get Latest Key.                  |
 
+| Parameter     | Type   | Required | Description                                                                 |
+|------------|--------|----------|-----------------------------------------------------------------------------|
+| `region`   | string | Yes      | Supported region code (`sg`, `ind`, `br`, `id`, `tw`, `us`, `sac`, `th`, `me`, `pk`, `cis`, `bd`). |
+| `uid`      | int    | Yes      | In-game Player UID                                                          |
+| `key`      | string | Yes      | Join [FreeFireInfoSite](https://t.me/FreeFireInfoSite) to get the latest key.|
 
 📚 **Purpose of the API**  
 
