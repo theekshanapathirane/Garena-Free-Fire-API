@@ -9,7 +9,7 @@ API Route = https://www.public.freefireinfo.site/api/info/<region>/<uid>?key=<ke
 This Endpoint Retrieves Account Information based on the Specified Region and User ID.
 
 ### 📨 Request Example
-* Note: This key Is not Work
+* Note: This key Is Expired
 ```http
 GET https://www.public.freefireinfo.site/api/info/sg/1341742864?key=astute_ff
 ```
