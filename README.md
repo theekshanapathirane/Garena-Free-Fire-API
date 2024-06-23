@@ -1,7 +1,7 @@
 # 📝 API Documentation
 
 ##  Account Information API
-API Route = https://www.public.freefireinfo.site/api/info/{region}/{uid}?key={key}
+API Route = https://www.public.********.site/api/info/{region}/{uid}?key={key}
 
 **Endpoint:** `api/info`
 **key:** `astute_ff`
